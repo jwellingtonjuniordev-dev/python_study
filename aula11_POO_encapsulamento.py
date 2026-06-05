@@ -110,10 +110,10 @@ class NovaContaBancaria:
             print(f"Você fez um saque de ${valor:.2f}")
 
     def mostrar_saldo(self):
-        if self.__saldo <= 0:
-            print(f"Não há saldo na sua conta")
+        if self.__saldo > 0:
+            return self.__saldo
         else:
-            print(f"Senhor(a) {self.__titular}, seu saldo atual é de ${self.__saldo:.2f}")
+            print(f"Não há saldo na sua conta")
 
 conta2 = NovaContaBancaria("Wellington Júnior", 100)
 conta2.depositar(750.75)
