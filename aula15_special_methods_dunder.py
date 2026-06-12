@@ -130,3 +130,69 @@ class Carrinho:
     
 carrinho = Carrinho()
 print(len(carrinho))
+
+# Desafio Extra
+# Vamos fazer algo muito próximo do mercado.
+# Crie uma classe: class ContaBancaria
+# Atributos: titular, saldo
+# Implemente: __str__
+# Quando fizer: print(conta)
+# Mostrar: Conta de Wellington.
+# Saldo: R$ 1500.00
+# Implemente também: __len__
+# A conta terá: historico_operacoes
+# Sempre que houver: depósito / saque
+# adicione uma descrição na lista.
+# Exemplo:
+'''Depósito de R$100
+Saque de R$50
+Depósito de R$300'''
+# Então: len(conta)
+# deve retornar: 3
+
+class ContaBancaria:
+    def __init__(self, titular, saldo):
+        self._titular = titular
+        self._saldo = saldo
+        self.depositos = []
+        self.saques = []
+        self.historico_operacoes = []
+
+    def __str__(self):
+        return f"Conta de {self._titular}, saldo atual de R${self._saldo}"
+    
+    def __len__(self):
+        return len(self.historico_operacoes)
+
+    def depositar(self, valor):
+        if valor <= 0:
+            print(f"Operação inválida")
+        else:
+            self._saldo += valor
+            self.historico_operacoes.append(f"Depósito de R${valor:.2f}")
+            self.depositos.append(valor)
+
+    def sacar(self, valor):
+        if valor > self._saldo:
+            print(f"Você não tem saldo suficiente!")
+        else:
+            self._saldo -= valor
+            self.historico_operacoes.append(f"Saque de R${valor}")
+            self.saques.append(valor)
+
+    def historico(self):
+        print(f"Você fez um total de {len(self.historico_operacoes)} operações na sua conta esse mês!")
+        print(f"Seu histórico é:")
+        for valor in self.historico_operacoes:
+            print(f"{valor}")
+        print(f"Total depositado R${sum(self.depositos):.2f}\nTotal sacado R${sum(self.saques):.2f}")
+
+conta1 = ContaBancaria("Wellington", 1500)
+print(conta1)
+conta1.depositar(1750.75)
+conta1.depositar(300.42)
+conta1.depositar(1787.34)
+conta1.sacar(100)
+conta1.sacar(350.50)
+print(len(conta1))
+conta1.historico()
