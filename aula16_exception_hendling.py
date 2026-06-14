@@ -126,3 +126,25 @@ shopping_cart.add_product()
 shopping_cart.add_product()
 shopping_cart.show_products()
 
+# Extra Challenge ⭐
+# Vamos evoluir seu sistema bancário.
+# Crie: class BankAccount:
+# Atributos: owner, balance, history
+# Métodos: deposit()
+# Se o usuário digitar um valor inválido: Invalid amount.
+# Use:
+# try: withdraw()
+# Se tentar sacar mais do que possui:
+# Insufficient funds.
+# Se digitar texto: Invalid amount.
+# show_balance()
+# Mostrar:
+# Owner: Wellington
+# Balance: $1500.00
+# show_history()
+# Mostrar todas as operações.
+# Exemplo:
+# Deposit: $500
+# Withdraw: $200
+# Deposit: $1000
+
