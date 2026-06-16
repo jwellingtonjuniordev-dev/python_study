@@ -42,7 +42,7 @@ class Calculator:
             try:
                 self.result = value1 / value2
                 print(f"The divide is: {self.result}")
-            except ValueError:
+            except ZeroDivisionError:
                 print(f"You cant't show this division")
             
 
@@ -91,7 +91,7 @@ user1.set_age()
 class ShoppingCart:
     def __init__(self):
         self.list_products = []
-        self.produtct_name = ''
+        self.product_name = ''
         self.product_price = 0
         self.products = {}
 
@@ -99,7 +99,7 @@ class ShoppingCart:
         prod_name = input(f"Insert the product name:\n")
         prod_price = input(f"Insert the price:\n")
 
-        if prod_name.isdigit():
+        if any(char.isdigit() for char in prod_name):
             print(f"The product's name cannot have numbers, please insert correct name")
         else:
             self.product_name = prod_name.capitalize()
@@ -116,8 +116,8 @@ class ShoppingCart:
 
         for product in self.list_products:
             print(
-                f"Product: {product["name"]} | "
-                f"Price ${product["price"]:.2f}"
+                f"Product: {product['name']} | "
+                f"Price ${product['price']:.2f}"
             )
 
 shopping_cart = ShoppingCart()
@@ -148,3 +148,55 @@ shopping_cart.show_products()
 # Withdraw: $200
 # Deposit: $1000
 
+class BankAccount:
+    def __init__(self, owner, balance):
+        self._balance = float(balance)
+        self._owner = owner
+        self.history = []
+
+    def deposit(self, amount):
+
+        try:
+            new_amount = float(amount)
+        except ValueError:
+            print(f"Invalid amount")
+            return
+        
+        if new_amount <= 0:
+            print(f"Invalid amount")
+            return
+        
+        self._balance += new_amount
+        self.history.append(("Deposit", new_amount))
+
+    def withdraw(self, amount):
+        try:
+            new_amount = float(amount)
+        except ValueError:
+            print("Invalid amount")
+            return
+
+        if new_amount <= 0 or self._balance < new_amount:
+            print(f"Insuficient funds")
+            return
+        
+        self._balance -= new_amount
+        self.history.append(("Withdraw", new_amount))
+
+    def show_history(self):
+        for op, value in self.history:
+            print(f"{op}: ${value:.2f}")
+
+    def show_balance(self):
+        print(
+            f"Owner: {self._owner.capitalize()}\n"
+            f"Balance: ${self._balance:.2f}"
+            )
+        
+account1 = BankAccount("Wellington", 1000)
+account1.deposit(450)
+account1.withdraw(200)
+account1.deposit(777.75)
+account1.withdraw(43.25)
+account1.show_history()
+account1.show_balance()
