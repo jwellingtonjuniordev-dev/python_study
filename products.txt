@@ -1,0 +1,10 @@
+Laptop - $1200.0
+Mouse - $30.0
+Keyboard - $80.0
+Monitor - $300.0
+Laptop - $1200.0
+Mouse - $30.0
+Keyboard - $70.0
+Laptop - $1200.0
+Mouse - $30.0
+Keyboard - $70.0

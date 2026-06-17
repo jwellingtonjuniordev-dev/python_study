@@ -1,0 +1,10 @@
+Deposit: 100.00
+Withdraw: 50.00
+Deposit: 100.00
+Withdraw: 50.00
+Deposit: 100.00
+Withdraw: 50.00
+Deposit: 100.00
+Withdraw: 50.00
+Deposit: 100.00
+Withdraw: 50.00
