@@ -343,6 +343,55 @@ Aprender a lidar com erros de execução e tornar os programas mais robustos e s
 
 ---
 
+## Aula 17 - Manipulação de Arquivos
+
+### Conceitos
+
+* open()
+* Modos de abertura
+* read()
+* readline()
+* readlines()
+* write()
+* append()
+* close()
+* with open()
+
+### Exercícios
+
+* Criar arquivos de texto;
+* Ler informações de um arquivo;
+* Adicionar conteúdo;
+* Atualizar dados;
+* Trabalhar com arquivos de forma segura.
+
+### Objetivo
+
+Aprender a armazenar e recuperar informações em arquivos, permitindo a persistência de dados em aplicações Python.
+
+---
+
+## Aula 18 - Módulos
+
+### Conceitos
+
+* import
+* from ... import ...
+* as
+* Módulos personalizados
+* Organização do código
+
+### Exercícios
+
+* Criar módulos próprios;
+* Importar funções;
+* Separar responsabilidades do programa;
+* Reutilizar código.
+
+### Objetivo
+
+Organizar projetos Python em múltiplos arquivos, promovendo reutilização, manutenção e escalabilidade do código.
+
 # Resumo da Trilha de Aprendizagem
 
 | Aula | Conteúdo                           |
@@ -363,6 +412,7 @@ Aprender a lidar com erros de execução e tornar os programas mais robustos e s
 | 14   | Abstração                          |
 | 15   | Métodos Especiais (Dunder Methods) |
 | 16   | Tratamento de Exceções             |
+| 17   | Manipulação de Arquivos            |
+| 18   | Módulos                            |
 
 Ao concluir esta trilha, o estudante terá desenvolvido uma base sólida em Python, compreendendo desde os conceitos fundamentais da linguagem até os principais pilares da Programação Orientada a Objetos e técnicas de tratamento de erros, estando preparado para avançar para tópicos como manipulação de arquivos, módulos, APIs, bancos de dados e desenvolvimento de aplicações mais complexas.
-

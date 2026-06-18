@@ -148,13 +148,21 @@ aula19_decorators.py
 
 ✅ Exceções
 
+## Manipulação de Arquivos
+
+✅ Arquivos
+
+## Modularização
+
+✅ Módulos
+
 ## Próximos Passos
 
-⬜ Arquivos
-
-⬜ Módulos
-
 ⬜ Decorators
+
+⬜ Geradores
+
+⬜ Programação Funcional
 
 ⬜ APIs
 

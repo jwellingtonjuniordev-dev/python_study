@@ -78,50 +78,31 @@ python aula1_variaveis_e_tipos.py
 
 ## 📈 Roadmap
 
-✅ Variáveis
-
+✅ ✅ Variáveis
 ✅ Condicionais
-
 ✅ Loops
-
 ✅ Listas
-
 ✅ Funções
-
 ✅ Dicionários
-
 ✅ Tuplas
-
 ✅ POO
-
 ✅ Encapsulamento
-
 ✅ Herança
-
 ✅ Polimorfismo
-
 ✅ Abstração
-
 ✅ Métodos Especiais
-
 ✅ Exceções
-
 ✅ Arquivos
-
-⬜ Módulos
+✅ Módulos
 
 ⬜ Decorators
-
+⬜ Geradores
+⬜ Programação Funcional
 ⬜ APIs
-
 ⬜ SQLite
-
 ⬜ Flask
-
 ⬜ Django
-
 ⬜ Testes
-
 ⬜ Projeto Final
 
 ---

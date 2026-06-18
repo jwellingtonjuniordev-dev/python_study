@@ -102,15 +102,16 @@ Ao final da trilha, espera-se dominar:
 
 ✅ Concluído
 
----
-
-# 🚀 Próximos Estudos
 
 ## Manipulação de Arquivos
 
-⬜ Leitura de arquivos
+✅ Leitura de arquivos
 
-⬜ Escrita de arquivos
+✅ Escrita de arquivos
+
+✅ Append
+
+✅ Context Manager (with open)
 
 ⬜ CSV
 
@@ -120,11 +121,15 @@ Ao final da trilha, espera-se dominar:
 
 ## Modularização
 
-⬜ Import
+✅ Import
+
+✅ from import
+
+✅ Alias
+
+✅ Módulos personalizados
 
 ⬜ Packages
-
-⬜ Módulos personalizados
 
 ---
 
@@ -304,7 +309,11 @@ POO                   ██████████ 100%
 
 Exceções              ██████████ 100%
 
-Arquivos              ░░░░░░░░░░   0%
+Arquivos              ██████████ 100%
+
+Módulos               ██████████ 100%
+
+Decorators            ░░░░░░░░░░   0%
 
 APIs                  ░░░░░░░░░░   0%
 
