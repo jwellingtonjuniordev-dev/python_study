@@ -98,11 +98,8 @@ def hello():
 # Mostrando todos os números.
 
 def number_generator():
-    yield 1
-    yield 2
-    yield 3
-    yield 4
-    yield 5
+    for number in range(1, 6):
+        yield number
 
 for n in number_generator():
     print(f"{n}° número: {n}")
@@ -114,12 +111,12 @@ for n in number_generator():
 # Percorra usando: for
 
 def word_generator():
-    yield "Python"
-    yield "Backend"
-    yield "Developer"
+    words = ["Python", "Backend", "Developer"]
+    for word in words:
+        yield word 
 
-for w in word_generator():
-    print(w)
+for word in word_generator():
+    print(word)
 
 # Mini Challenge
 # Crie uma classe:
