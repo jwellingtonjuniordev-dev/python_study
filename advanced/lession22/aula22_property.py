@@ -65,16 +65,16 @@ product.price = 250'''
 
 class Product:
     def __init__(self, price):
-        self._price = price
+        self.price = price
 
     @property
     def price(self):
-        return self._price
+        return self.price
     
     @price.setter
     def price(self, value):
         if value > 0:
-            self._price = value
+            self.price = value
 # Test:
 product = Product(100)
 print(product.price)
@@ -161,4 +161,54 @@ print(f"Initial balance: {account.balance}")
 account.deposit(500)
 print(f"Balance after deposit: {account.balance}")
 account.withdraw(300)
-print(f"Balance after withdrawal: {account.balance}")   
+print(f"Balance after withdrawal: {account.balance}")
+
+# Extra Challenge ⭐⭐⭐
+# Create:
+# class Student
+#
+# Attributes:
+# name
+# _grade
+#
+# Create:
+# @property grade
+# @grade.setter
+#
+# Rules:
+# grade must be between 0 and 10
+#
+# Create:
+# show_status()
+#
+# Rules:
+# if grade >= 7:
+#     "Approved"
+# else:
+#     "Failed"
+
+class Student:
+    def __init__(self, name, grade):
+        self.name = name
+        self.grade = grade
+
+    @property
+    def grade(self):
+        return self.grade
+    
+    @grade.setter
+    def grade(self, value):
+        if 0 <= value <= 10:
+            self.grade = value
+
+    def show_status(self):
+        if self.grade >= 7:
+            return "Approved"
+        else:
+            return "Failed"
+        
+# Test:
+student = Student("Alice", 8)   
+print(f"Student: {student.name}, Grade: {student.grade}, Status: {student.show_status()}")
+student.grade = 6
+print(f"Student: {student.name}, Grade: {student.grade}, Status: {student.show_status()}")
