@@ -1,332 +1,300 @@
 # 🐍 Python Study Roadmap
 
-Bem-vindo ao roadmap do projeto **Python Study**!
+Bem-vindo ao roadmap do **Python Study**!
 
-Este documento apresenta a trilha de aprendizado desenvolvida ao longo do projeto, destacando os conteúdos já concluídos e os próximos passos da jornada.
+Este documento acompanha minha evolução durante o estudo da linguagem Python, registrando os módulos concluídos, os assuntos em andamento e os próximos objetivos.
 
 ---
 
 # 🎯 Objetivo
 
-O objetivo deste projeto é construir uma base sólida em Python, evoluindo desde conceitos fundamentais até o desenvolvimento de aplicações completas.
+Construir uma base sólida em Python, evoluindo desde a lógica de programação até o desenvolvimento de aplicações completas, APIs e sistemas escaláveis.
 
-Ao final da trilha, espera-se dominar:
+Ao final desta jornada, o objetivo é dominar:
 
-* Lógica de programação;
-* Estruturas de dados;
-* Programação Orientada a Objetos;
-* Tratamento de exceções;
-* Manipulação de arquivos;
-* Desenvolvimento Web;
-* Banco de dados;
-* Consumo de APIs;
-* Boas práticas de programação.
+- Desenvolvimento de aplicações em Python;
+- Programação Orientada a Objetos;
+- Arquitetura de software;
+- Desenvolvimento de APIs;
+- Banco de Dados;
+- Testes Automatizados;
+- Docker e Deploy.
 
 ---
 
-# 📚 Módulo 1 - Fundamentos
+# ✅ Módulo 1 — Fundamentos da Linguagem
 
-## Aula 1 - Variáveis e Tipos
-
-✅ Concluído
-
-## Aula 2 - Input e Conversão de Dados
-
-✅ Concluído
-
-## Aula 3 - Estruturas Condicionais
-
-✅ Concluído
-
-## Aula 4 - Operadores Lógicos e Validações
-
-✅ Concluído
-
-## Aula 5 - Laços de Repetição
-
-✅ Concluído
+- [x] Variáveis
+- [x] Tipos de Dados
+- [x] Operadores
+- [x] Entrada e Saída
+- [x] Condicionais
+- [x] Estruturas de Repetição
+- [x] Controle de Fluxo (break / continue)
 
 ---
 
-# 📚 Módulo 2 - Estruturas de Dados
+# ✅ Módulo 2 — Estruturas de Dados
 
-## Aula 6 - Listas
-
-✅ Concluído
-
-## Aula 7 - Funções
-
-✅ Concluído
-
-## Aula 8 - Dicionários
-
-✅ Concluído
-
-## Aula 9 - Tuplas e JSON
-
-✅ Concluído
+- [x] Listas
+- [x] Tuplas
+- [x] Dicionários
+- [x] Listas de Dicionários
 
 ---
 
-# 📚 Módulo 3 - Programação Orientada a Objetos
+# ✅ Módulo 3 — Funções
 
-## Aula 10 - Classes e Objetos
-
-✅ Concluído
-
-## Aula 11 - Encapsulamento
-
-✅ Concluído
-
-## Aula 12 - Herança
-
-✅ Concluído
-
-## Aula 13 - Polimorfismo
-
-✅ Concluído
-
-## Aula 14 - Abstração
-
-✅ Concluído
-
-## Aula 15 - Métodos Especiais
-
-✅ Concluído
+- [x] Definição de Funções
+- [x] Parâmetros
+- [x] Retorno
+- [x] Reutilização de Código
+- [x] Organização em Funções
 
 ---
 
-# 📚 Módulo 4 - Tratamento de Exceções
+# ✅ Módulo 4 — Programação Orientada a Objetos
 
-## Aula 16 - Exception Handling
+## Classes
 
-✅ Concluído
+- [x] Classes
+- [x] Objetos
+- [x] Construtores (**init**)
+- [x] Atributos
+- [x] Métodos
 
+## Encapsulamento
 
-## Manipulação de Arquivos
+- [x] Atributos Privados
+- [x] Getters
+- [x] Setters
+- [x] @property
+- [x] @setter
 
-✅ Leitura de arquivos
+## Herança
 
-✅ Escrita de arquivos
+- [x] Herança Simples
+- [x] Reutilização de Código
 
-✅ Append
+## Polimorfismo
 
-✅ Context Manager (with open)
+- [x] Sobrescrita de Métodos
 
-⬜ CSV
+## Classes Abstratas
 
-⬜ JSON
+- [x] ABC
+- [x] @abstractmethod
+
+## Métodos Especiais
+
+- [x] **str**
+- [x] **len**
+- [x] **iter**
+
+## Métodos Avançados
+
+- [x] Métodos de Instância
+- [x] Static Methods
+- [x] Class Methods
+
+## Dataclasses
+
+- [x] @dataclass
 
 ---
 
-## Modularização
+# ✅ Módulo 5 — Tratamento de Exceções
 
-✅ Import
-
-✅ from import
-
-✅ Alias
-
-✅ Módulos personalizados
-
-⬜ Packages
+- [x] try
+- [x] except
+- [x] raise
+- [x] Exceções Personalizadas
 
 ---
 
-## Programação Funcional
+# ✅ Módulo 6 — Manipulação de Arquivos
 
-⬜ Lambda
-
-⬜ map
-
-⬜ filter
-
-⬜ reduce
+- [x] open()
+- [x] read()
+- [x] write()
+- [x] append()
+- [x] with
+- [x] Persistência de Dados
 
 ---
+
+# ✅ Módulo 7 — Organização de Projetos
+
+- [x] import
+- [x] from ... import ...
+- [x] Organização em Módulos
+- [x] Organização em Packages
+
+---
+
+# ✅ Módulo 8 — Recursos Avançados do Python
+
+## Generators
+
+- [x] yield
 
 ## Decorators
 
-⬜ Funções decoradoras
+- [x] Wrappers
+- [x] \*args
+- [x] \*\*kwargs
+- [x] functools.wraps
 
-⬜ Decorators com parâmetros
+## Context Managers
 
----
-
-## Geradores
-
-⬜ yield
-
-⬜ Iteradores
-
----
-
-## Banco de Dados
-
-⬜ SQLite
-
-⬜ CRUD
-
-⬜ Relacionamentos
+- [x] with
+- [x] **enter**()
+- [x] **exit**()
 
 ---
 
-## APIs
+# 🚧 Módulo 9 — Python Avançado
 
-⬜ Requests
+- [ ] Enums
+- [ ] Type Hints Avançados
+- [ ] Collections
+  - [ ] Counter
+  - [ ] defaultdict
+  - [ ] deque
 
-⬜ JSON
-
-⬜ Consumo de APIs públicas
-
-⬜ APIs REST
-
----
-
-## Desenvolvimento Web
-
-### Flask
-
-⬜ Rotas
-
-⬜ Templates
-
-⬜ Formulários
-
-⬜ Banco de dados
+- [ ] Itertools
+- [ ] Functools
+- [ ] Lambdas
+- [ ] Funções de Alta Ordem
+- [ ] Compreensões Avançadas
 
 ---
 
-### Django
+# 🚧 Módulo 10 — Ambiente de Desenvolvimento
 
-⬜ Projeto
-
-⬜ Apps
-
-⬜ Models
-
-⬜ Views
-
-⬜ Templates
-
-⬜ Admin
+- [ ] Virtual Environments (venv)
+- [ ] pip
+- [ ] Gerenciamento de Dependências
 
 ---
 
-## Testes
+# 🚧 Módulo 11 — Qualidade de Software
 
-⬜ unittest
-
-⬜ pytest
-
----
-
-## Boas Práticas
-
-⬜ PEP 8
-
-⬜ Type Hints
-
-⬜ Docstrings
-
-⬜ Logging
+- [ ] Logging
+- [ ] Testes Automatizados (pytest)
+- [ ] Type Hints
+- [ ] Docstrings
+- [ ] PEP 8
 
 ---
 
-## Git e GitHub
+# 🚧 Módulo 12 — Persistência de Dados
 
-⬜ Branches
-
-⬜ Pull Requests
-
-⬜ Git Flow
+- [ ] JSON
+- [ ] SQLite
+- [ ] SQLAlchemy
 
 ---
 
-# 💻 Projetos Práticos
+# 🚧 Módulo 13 — APIs
 
-## Básico
-
-⬜ Calculadora
-
-⬜ Agenda
-
-⬜ Lista de tarefas
-
-⬜ Sistema bancário
+- [ ] Requests
+- [ ] Consumo de APIs REST
+- [ ] Criação de APIs REST
 
 ---
 
-## Intermediário
+# 🚧 Módulo 14 — FastAPI
 
-⬜ Sistema de estoque
-
-⬜ Gerenciador financeiro
-
-⬜ Cadastro de usuários
-
----
-
-## Avançado
-
-⬜ API em Flask
-
-⬜ Blog em Django
-
-⬜ Sistema de autenticação
-
-⬜ Dashboard financeiro
+- [ ] Rotas
+- [ ] Models
+- [ ] Validações
+- [ ] CRUD
+- [ ] Documentação Automática
+- [ ] Autenticação JWT
 
 ---
 
-# 🎓 Projeto Final
+# 🚧 Módulo 15 — Docker
 
-Ao concluir a trilha, o objetivo será desenvolver uma aplicação completa utilizando:
-
-✅ Python
-
-✅ Programação Orientada a Objetos
-
-✅ Banco de Dados
-
-✅ APIs
-
-✅ Flask ou Django
-
-✅ Boas práticas
-
-✅ Git e GitHub
+- [ ] Docker
+- [ ] Docker Compose
+- [ ] Containers
+- [ ] Imagens
 
 ---
 
-# 📈 Progresso Atual
+# 🚧 Módulo 16 — Deploy
 
-Fundamentos            ██████████ 100%
-
-Estruturas de Dados   ██████████ 100%
-
-POO                   ██████████ 100%
-
-Exceções              ██████████ 100%
-
-Arquivos              ██████████ 100%
-
-Módulos               ██████████ 100%
-
-Decorators            ░░░░░░░░░░   0%
-
-APIs                  ░░░░░░░░░░   0%
-
-Banco de Dados        ░░░░░░░░░░   0%
-
-Flask                 ░░░░░░░░░░   0%
-
-Django                ░░░░░░░░░░   0%
-
-Projeto Final         ░░░░░░░░░░   0%
+- [ ] Deploy em Produção
+- [ ] Variáveis de Ambiente
+- [ ] Hospedagem de APIs
 
 ---
 
-# 🎯 Missão do Projeto
+# 💻 Projeto Principal
 
-Transformar uma sequência de estudos em uma coleção organizada de exemplos, exercícios e projetos práticos, servindo como material de consulta, aprendizado contínuo e demonstração da evolução técnica em Python.
+Ao longo da trilha foi desenvolvido um sistema bancário que evoluiu continuamente para aplicar os conceitos estudados.
+
+Recursos implementados:
+
+- [x] Programação Orientada a Objetos
+- [x] Encapsulamento
+- [x] Herança
+- [x] Polimorfismo
+- [x] Classes Abstratas
+- [x] Magic Methods
+- [x] Properties
+- [x] Dataclasses
+- [x] Tratamento de Exceções
+- [x] Persistência em Arquivos
+- [x] Histórico de Operações
+- [x] Context Managers
+- [x] Organização em Módulos
+
+---
+
+# 📊 Progresso Atual
+
+| Módulo                          |     Status      |
+| ------------------------------- | :-------------: |
+| Fundamentos                     |     ✅ 100%     |
+| Estruturas de Dados             |     ✅ 100%     |
+| Funções                         |     ✅ 100%     |
+| Programação Orientada a Objetos |     ✅ 100%     |
+| Tratamento de Exceções          |     ✅ 100%     |
+| Manipulação de Arquivos         |     ✅ 100%     |
+| Organização em Módulos          |     ✅ 100%     |
+| Recursos Avançados do Python    |     ✅ 100%     |
+| Python Avançado                 | 🚧 Em andamento |
+| Ambiente de Desenvolvimento     |   ⏳ Pendente   |
+| Qualidade de Software           |   ⏳ Pendente   |
+| Persistência de Dados           |   ⏳ Pendente   |
+| APIs                            |   ⏳ Pendente   |
+| FastAPI                         |   ⏳ Pendente   |
+| Docker                          |   ⏳ Pendente   |
+| Deploy                          |   ⏳ Pendente   |
+
+---
+
+# 🎯 Objetivo Final
+
+Desenvolver aplicações completas utilizando:
+
+- Python Moderno
+- Programação Orientada a Objetos
+- Arquitetura Limpa
+- APIs REST
+- FastAPI
+- Banco de Dados
+- SQLAlchemy
+- JWT
+- Docker
+- Testes Automatizados
+- Deploy em Produção
+
+---
+
+# 🚀 Missão
+
+Transformar este repositório em uma referência da minha evolução como desenvolvedor Python, reunindo exemplos práticos, projetos, documentação e boas práticas que demonstrem meu crescimento técnico e sirvam como material de estudo para outros desenvolvedores.

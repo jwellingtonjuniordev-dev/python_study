@@ -4,77 +4,124 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## 📚 Sobre o projeto
+📖 Sobre o Projeto
 
-Este repositório documenta minha jornada de aprendizado em Python, abordando desde conceitos básicos até Programação Orientada a Objetos e tratamento de exceções.
+Python Study é um repositório criado para documentar minha jornada de aprendizado em Python.
 
-Cada arquivo representa uma aula prática com exercícios e pequenos projetos para consolidar os conceitos estudados.
+O projeto reúne exercícios, desafios e aplicações práticas desenvolvidos ao longo do estudo da linguagem, desde os fundamentos até recursos avançados da Programação Orientada a Objetos.
 
----
+Além de servir como material de consulta, este repositório registra minha evolução técnica e funciona como parte do meu portfólio.
 
-## 🎯 Objetivos
-
-* Aprender Python do básico ao avançado;
-* Desenvolver lógica de programação;
-* Praticar Programação Orientada a Objetos;
-* Resolver problemas reais;
-* Construir um portfólio técnico.
-
----
-
-## 🗂 Conteúdo
-
-### Fundamentos
-
-* Variáveis
-* Tipos de dados
-* Input
-* Conversão de dados
-* Estruturas condicionais
-* Operadores lógicos
-* Laços de repetição
-
-### Estruturas de Dados
-
-* Listas
-* Funções
-* Dicionários
-* Tuplas
-
-### Programação Orientada a Objetos
-
-* Classes
-* Objetos
-* Encapsulamento
-* Herança
-* Polimorfismo
-* Abstração
-* Métodos especiais
-
-### Tratamento de Erros
-
-* try
-* except
-* ValueError
-* Validações
+🎯 Objetivos
+Dominar a linguagem Python;
+Desenvolver pensamento lógico;
+Aplicar boas práticas de programação;
+Construir projetos práticos;
+Evoluir para desenvolvimento de APIs e aplicações completas.
 
 ---
 
-## 🚀 Como executar
-
-Clone o projeto:
-
-git clone https://github.com/SEU_USUARIO/python-study.git
-
-Entre na pasta:
-
-cd python-study
-
-Execute qualquer aula:
-
-python aula1_variaveis_e_tipos.py
+📚 Conteúdo Estudado
+✅ Fundamentos da Linguagem
+Variáveis
+Tipos de Dados
+Operadores
+Entrada e Saída
+Condicionais
+Estruturas de Repetição
+Controle de Fluxo
+✅ Estruturas de Dados
+Listas
+Tuplas
+Dicionários
+✅ Funções
+Parâmetros
+Retorno
+Reutilização de Código
+✅ Programação Orientada a Objetos
+Classes
+Objetos
+Métodos
+Encapsulamento
+Herança
+Polimorfismo
+Classes Abstratas
+Magic Methods
+Properties
+Static Methods
+Class Methods
+Dataclasses
+✅ Recursos Avançados
+Tratamento de Exceções
+Manipulação de Arquivos
+Organização em Módulos
+Generators
+Decorators
+Context Managers
 
 ---
+
+🚀 Projeto Principal
+
+Durante toda a trilha foi desenvolvido um sistema bancário, evoluindo continuamente para aplicar todos os conceitos estudados.
+
+O projeto inclui:
+
+Sistema de contas
+Histórico de operações
+Persistência em arquivos
+Encapsulamento
+Herança
+Polimorfismo
+Classes abstratas
+Context Managers
+Dataclasses
+Properties
+
+📈 Nível Atual
+
+✅ Lógica de Programação
+
+✅ Estruturas de Dados
+
+✅ Programação Orientada a Objetos
+
+✅ Arquivos
+
+✅ Módulos
+
+✅ Generators
+
+✅ Decorators
+
+✅ Context Managers
+
+✅ Dataclasses
+
+✅ Properties
+
+✅ Static Methods
+
+✅ Class Methods
+
+🎯 Próximos Estudos
+Enums
+Type Hints Avançados
+Collections
+Itertools
+Functools
+Lambdas
+Compreensões Avançadas
+Virtual Environments
+pytest
+Logging
+APIs REST
+SQLite
+SQLAlchemy
+FastAPI
+JWT
+Docker
+Deploy
 
 ## 📈 Roadmap
 

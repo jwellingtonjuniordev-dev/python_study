@@ -4,15 +4,15 @@
 
 ### Conceitos
 
-* int
-* float
-* str
-* bool
+- int
+- float
+- str
+- bool
 
 ### Exercícios
 
-* Impressão de mensagens
-* Cálculo de descontos
+- Impressão de mensagens
+- Cálculo de descontos
 
 ### Objetivo
 
@@ -24,15 +24,15 @@ Compreender como armazenar e manipular dados.
 
 ### Conceitos
 
-* input()
-* int()
-* float()
+- input()
+- int()
+- float()
 
 ### Exercícios
 
-* Cadastro de usuário
-* Soma de números
-* Calculadora de descontos
+- Cadastro de usuário
+- Soma de números
+- Calculadora de descontos
 
 ---
 
@@ -40,15 +40,15 @@ Compreender como armazenar e manipular dados.
 
 ### Conceitos
 
-* if
-* elif
-* else
+- if
+- elif
+- else
 
 ### Exercícios
 
-* Verificação de idade
-* Sistema de notas
-* Login simples
+- Verificação de idade
+- Sistema de notas
+- Login simples
 
 ---
 
@@ -56,18 +56,18 @@ Compreender como armazenar e manipular dados.
 
 ### Conceitos
 
-* and
-* or
-* not
-* Operadores relacionais
-* Validação de dados
+- and
+- or
+- not
+- Operadores relacionais
+- Validação de dados
 
 ### Exercícios
 
-* Verificação de idade para dirigir
-* Sistema de desconto para clientes VIP
-* Controle de acesso administrativo
-* Validação de senha
+- Verificação de idade para dirigir
+- Sistema de desconto para clientes VIP
+- Controle de acesso administrativo
+- Validação de senha
 
 ### Objetivo
 
@@ -79,18 +79,18 @@ Aprender a combinar condições e criar sistemas simples de validação.
 
 ### Conceitos
 
-* while
-* for
-* break
-* continue
-* Contadores
+- while
+- for
+- break
+- continue
+- Contadores
 
 ### Exercícios
 
-* Contagem de números
-* Impressão de números pares
-* Validação de senha
-* Mini sistema bancário
+- Contagem de números
+- Impressão de números pares
+- Validação de senha
+- Mini sistema bancário
 
 ### Objetivo
 
@@ -102,19 +102,19 @@ Entender como automatizar tarefas repetitivas através de estruturas de repetiç
 
 ### Conceitos
 
-* Criação de listas
-* Indexação
-* append()
-* remove()
-* len()
-* Percorrer listas
+- Criação de listas
+- Indexação
+- append()
+- remove()
+- len()
+- Percorrer listas
 
 ### Exercícios
 
-* Lista de linguagens
-* Cadastro de nomes
-* Lista de compras
-* Carrinho de mercado
+- Lista de linguagens
+- Cadastro de nomes
+- Lista de compras
+- Carrinho de mercado
 
 ### Objetivo
 
@@ -126,17 +126,17 @@ Aprender a armazenar e manipular coleções de dados.
 
 ### Conceitos
 
-* Definição de funções
-* Parâmetros
-* Retorno de valores
-* Reutilização de código
+- Definição de funções
+- Parâmetros
+- Retorno de valores
+- Reutilização de código
 
 ### Exercícios
 
-* Mensagens personalizadas
-* Soma de números
-* Sistema de mercado
-* Mini sistema bancário
+- Mensagens personalizadas
+- Soma de números
+- Sistema de mercado
+- Mini sistema bancário
 
 ### Objetivo
 
@@ -148,17 +148,17 @@ Organizar programas em pequenos blocos reutilizáveis e de fácil manutenção.
 
 ### Conceitos
 
-* dict
-* Chaves e valores
-* Atualização de dados
-* Método items()
+- dict
+- Chaves e valores
+- Atualização de dados
+- Método items()
 
 ### Exercícios
 
-* Cadastro de produtos
-* Cadastro de usuários
-* Sistema de login
-* Validação de informações
+- Cadastro de produtos
+- Cadastro de usuários
+- Sistema de login
+- Validação de informações
 
 ### Objetivo
 
@@ -170,17 +170,17 @@ Aprender a organizar dados em estruturas compostas e acessá-los de forma eficie
 
 ### Conceitos
 
-* Tuplas
-* Imutabilidade
-* Estruturas de dados
-* Organização de informações
+- Tuplas
+- Imutabilidade
+- Estruturas de dados
+- Organização de informações
 
 ### Exercícios
 
-* Manipulação de tuplas
-* Percorrer dicionários
-* Cadastro de produtos
-* Controle de estoque
+- Manipulação de tuplas
+- Percorrer dicionários
+- Cadastro de produtos
+- Controle de estoque
 
 ### Objetivo
 
@@ -192,18 +192,18 @@ Compreender estruturas imutáveis e organizar dados de maneira estruturada.
 
 ### Conceitos
 
-* Classes
-* Objetos
-* Atributos
-* Métodos
-* Construtor **init**
+- Classes
+- Objetos
+- Atributos
+- Métodos
+- Construtor **init**
 
 ### Exercícios
 
-* Classe Pessoa
-* Classe Produto
-* Classe Carro
-* Conta Bancária
+- Classe Pessoa
+- Classe Produto
+- Classe Carro
+- Conta Bancária
 
 ### Objetivo
 
@@ -215,17 +215,17 @@ Introduzir os fundamentos da Programação Orientada a Objetos e sua aplicação
 
 ### Conceitos
 
-* Atributos privados
-* Encapsulamento
-* Getters
-* Setters
+- Atributos privados
+- Encapsulamento
+- Getters
+- Setters
 
 ### Exercícios
 
-* Funcionário
-* Produto
-* Conta Bancária
-* Nova implementação de conta
+- Funcionário
+- Produto
+- Conta Bancária
+- Nova implementação de conta
 
 ### Objetivo
 
@@ -237,17 +237,17 @@ Proteger os dados internos dos objetos e controlar seu acesso por meio de métod
 
 ### Conceitos
 
-* Classe base
-* Classe derivada
-* Reutilização de código
-* Sobrescrita de métodos
+- Classe base
+- Classe derivada
+- Reutilização de código
+- Sobrescrita de métodos
 
 ### Exercícios
 
-* Pessoa e Aluno
-* Veículo e Carro
-* Funcionário e Gerente
-* Conta Premium
+- Pessoa e Aluno
+- Veículo e Carro
+- Funcionário e Gerente
+- Conta Premium
 
 ### Objetivo
 
@@ -259,16 +259,16 @@ Criar novas classes aproveitando funcionalidades já existentes.
 
 ### Conceitos
 
-* Sobrescrita de métodos
-* Comportamentos diferentes
-* Especialização de classes
+- Sobrescrita de métodos
+- Comportamentos diferentes
+- Especialização de classes
 
 ### Exercícios
 
-* Animais
-* Funcionários
-* Veículos
-* Sistema bancário
+- Animais
+- Funcionários
+- Veículos
+- Sistema bancário
 
 ### Objetivo
 
@@ -280,17 +280,17 @@ Permitir que objetos diferentes respondam de formas distintas ao mesmo método.
 
 ### Conceitos
 
-* Classes abstratas
-* ABC
-* abstractmethod
-* Interfaces
+- Classes abstratas
+- ABC
+- abstractmethod
+- Interfaces
 
 ### Exercícios
 
-* Funcionários
-* Pagamentos
-* Transportes
-* Sistema bancário abstrato
+- Funcionários
+- Pagamentos
+- Transportes
+- Sistema bancário abstrato
 
 ### Objetivo
 
@@ -302,17 +302,17 @@ Definir estruturas genéricas que serão implementadas pelas classes derivadas.
 
 ### Conceitos
 
-* **str**
-* **len**
-* Métodos mágicos
-* Personalização de objetos
+- **str**
+- **len**
+- Métodos mágicos
+- Personalização de objetos
 
 ### Exercícios
 
-* Time
-* Biblioteca
-* Carrinho
-* Conta Bancária
+- Time
+- Biblioteca
+- Carrinho
+- Conta Bancária
 
 ### Objetivo
 
@@ -324,18 +324,18 @@ Compreender como personalizar o comportamento dos objetos em Python.
 
 ### Conceitos
 
-* try
-* except
-* ValueError
-* Tratamento de erros
-* Validação de entradas
+- try
+- except
+- ValueError
+- Tratamento de erros
+- Validação de entradas
 
 ### Exercícios
 
-* Conversão segura de dados
-* Calculadora com tratamento de exceções
-* Cadastro de usuários
-* Carrinho de compras
+- Conversão segura de dados
+- Calculadora com tratamento de exceções
+- Cadastro de usuários
+- Carrinho de compras
 
 ### Objetivo
 
@@ -347,23 +347,23 @@ Aprender a lidar com erros de execução e tornar os programas mais robustos e s
 
 ### Conceitos
 
-* open()
-* Modos de abertura
-* read()
-* readline()
-* readlines()
-* write()
-* append()
-* close()
-* with open()
+- open()
+- Modos de abertura
+- read()
+- readline()
+- readlines()
+- write()
+- append()
+- close()
+- with open()
 
 ### Exercícios
 
-* Criar arquivos de texto;
-* Ler informações de um arquivo;
-* Adicionar conteúdo;
-* Atualizar dados;
-* Trabalhar com arquivos de forma segura.
+- Criar arquivos de texto;
+- Ler informações de um arquivo;
+- Adicionar conteúdo;
+- Atualizar dados;
+- Trabalhar com arquivos de forma segura.
 
 ### Objetivo
 
@@ -375,44 +375,196 @@ Aprender a armazenar e recuperar informações em arquivos, permitindo a persist
 
 ### Conceitos
 
-* import
-* from ... import ...
-* as
-* Módulos personalizados
-* Organização do código
+- import
+- from ... import ...
+- as
+- Módulos personalizados
+- Organização do código
 
 ### Exercícios
 
-* Criar módulos próprios;
-* Importar funções;
-* Separar responsabilidades do programa;
-* Reutilizar código.
+- Criar módulos próprios;
+- Importar funções;
+- Separar responsabilidades do programa;
+- Reutilizar código.
+
+## Aula 19 - Packages
+
+### Conceitos
+
+- Estrutura de pacotes
+- **init**.py
+- Organização de projetos
+- Importação entre pacotes
+
+### Exercícios
+
+- Criar packages personalizados
+- Separar módulos por responsabilidade
+- Organizar um projeto em múltiplos diretórios
+
+### Objetivo
+
+Aprender a estruturar aplicações Python de forma escalável e organizada.
+
+---
+
+## Aula 20 - Manipulação de Arquivos JSON
+
+### Conceitos
+
+- json
+- dump()
+- load()
+- dumps()
+- loads()
+
+### Exercícios
+
+- Salvar dados em JSON
+- Ler arquivos JSON
+- Converter objetos Python para JSON
+
+### Objetivo
+
+Persistir e compartilhar dados utilizando um dos formatos mais utilizados no desenvolvimento de software.
+
+---
+
+## Aula 21 - Exceções Personalizadas
+
+### Conceitos
+
+- Criar exceções próprias
+- Herança da classe Exception
+- raise
+- Tratamento personalizado
+
+### Exercícios
+
+- Criar uma exceção personalizada
+- Validar regras de negócio
+- Utilizar raise para interromper execuções inválidas
+
+### Objetivo
+
+Desenvolver aplicações mais robustas utilizando tratamento de erros específico para cada contexto.
+
+---
+
+## Aula 22 - Métodos de Instância
+
+### Conceitos
+
+- self
+- Estado do objeto
+- Métodos de instância
+
+### Exercícios
+
+- Criar classes com atributos próprios
+- Atualizar estados dos objetos
+- Executar operações específicas por instância
+
+### Objetivo
+
+Compreender o funcionamento dos métodos que manipulam dados pertencentes a cada objeto.
+
+---
+
+## Aula 23 - Static Methods e Class Methods
+
+### Conceitos
+
+- @staticmethod
+- @classmethod
+- cls
+- Diferença entre métodos de instância, estáticos e de classe
+
+### Exercícios
+
+- Criar métodos utilitários
+- Implementar fábricas de objetos
+- Trabalhar com atributos de classe
+
+### Objetivo
+
+Entender quando utilizar métodos estáticos e métodos de classe para organizar melhor a lógica de uma aplicação orientada a objetos.
 
 ### Objetivo
 
 Organizar projetos Python em múltiplos arquivos, promovendo reutilização, manutenção e escalabilidade do código.
 
-# Resumo da Trilha de Aprendizagem
+Generators
+Conceitos
+yield
+Geração sob demanda
+Economia de memória
+Objetivo
 
-| Aula | Conteúdo                           |
-| ---- | ---------------------------------- |
-| 01   | Variáveis e Tipos                  |
-| 02   | Input e Conversão de Dados         |
-| 03   | Estruturas Condicionais            |
-| 04   | Operadores Lógicos e Validações    |
-| 05   | Laços de Repetição                 |
-| 06   | Listas                             |
-| 07   | Funções                            |
-| 08   | Dicionários                        |
-| 09   | Tuplas e JSON                      |
-| 10   | Programação Orientada a Objetos    |
-| 11   | Encapsulamento                     |
-| 12   | Herança                            |
-| 13   | Polimorfismo                       |
-| 14   | Abstração                          |
-| 15   | Métodos Especiais (Dunder Methods) |
-| 16   | Tratamento de Exceções             |
-| 17   | Manipulação de Arquivos            |
-| 18   | Módulos                            |
+Produzir sequências de dados de forma eficiente utilizando geradores.
 
-Ao concluir esta trilha, o estudante terá desenvolvido uma base sólida em Python, compreendendo desde os conceitos fundamentais da linguagem até os principais pilares da Programação Orientada a Objetos e técnicas de tratamento de erros, estando preparado para avançar para tópicos como manipulação de arquivos, módulos, APIs, bancos de dados e desenvolvimento de aplicações mais complexas.
+Decorators
+Conceitos
+@decorator
+Wrapper
+Funções internas
+\*args
+\*\*kwargs
+functools.wraps
+Exercícios
+Logger automático
+Medição de tempo
+Validação de chamadas
+Objetivo
+
+Modificar o comportamento de funções sem alterar sua implementação.
+
+Context Managers
+Conceitos
+with
+enter()
+exit()
+Exercícios
+Gerenciador de arquivos
+Context Manager personalizado
+Objetivo
+
+Automatizar aquisição e liberação de recursos.
+
+Dataclasses
+Conceitos
+@dataclass
+Campos
+Valores padrão
+Exercícios
+Cadastro de clientes
+Produtos
+Contas bancárias
+Objetivo
+
+Reduzir código repetitivo em classes que armazenam dados.
+
+Properties
+Conceitos
+@property
+@setter
+Exercícios
+Controle de saldo
+Validação de atributos privados
+Objetivo
+
+Controlar acesso aos atributos mantendo encapsulamento.
+
+Static Methods e Class Methods
+Conceitos
+@staticmethod
+@classmethod
+cls
+Exercícios
+Métodos utilitários
+Fábricas de objetos
+Contadores de instâncias
+Objetivo
+
+Diferenciar responsabilidades entre métodos de instância, de classe e estáticos.
